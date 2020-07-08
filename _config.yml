@@ -5,13 +5,13 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Gateway Crypto 
+title:            The Essen Family
 
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 # title:
-#   en: "Gateway Crypto"
-#   es: "El Crypto"
+#   en: "Essen"
+#   es: "Esse"
 #
 # description:
 #   en: > # this means to ignore newlines until "author:"
@@ -26,9 +26,9 @@ paginate_path:    /posts/page:num/
 version:          1.0
 
 # Social Media
-email: info@gatewaycrypto.org
-donate: https://commerce.coinbase.com/checkout/a00f9155-4547-4a8e-883e-15546b48f04b
-chat: http://chat.fabricatorz.org/&num;/room/&num;gatewaycrypto:fabricatorz.org
+email: info@essen.family
+donate: mailto:info@essen.family?subject=Support Essen Family Project
+chat: http://chat.fabricatorz.org/&num;/room/&num;essenfamily:fabricatorz.org
 
 sass:
   sass_dir: assets/css
@@ -37,17 +37,17 @@ sass:
 
 # Setup
 description: >- # this means to ignore newlines until "baseurl:"
-  Fintech Education Community Based in St. Louis
+  Charting the Essen Family Tree.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://gatewaycrypto.org"
+url: "https://essen.family"
 
 # Build settings
 markdown: kramdown
 # no theme!
 # theme: minima
-banner: Fintech Education Community Based in St. Louis
+banner: We gather, preserve and promote the heritage of the Essen Family. Our first project is to recreate the Essen Log Cabin.
 message:
 
 call_to_action:
@@ -58,12 +58,11 @@ question:
 # meta_redirect_timeout: 30
 
 # favicon: /favicon.ico
-favicon: /favicon.ico
-logo: /assets/img/logo.jpg
+# logo: /assets/img/logo.jpg
 
 
 
-version: 20200623
+version: 20200708
 
 # DOES NOT WORK UNTIL JEKYLL > 3.7
 collections_dir: collections

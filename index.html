@@ -9,18 +9,22 @@ ref: home
 
   <div class="row">
     <div class="column column-logo">
+			{% if site.logo %}
 			<div class="logo"><img src="{{site.logo}}" /></div>
-			<p class="logotext">gateway<strong>crypto</strong></p>
+			{% endif %}
+			<p class="logotext">{{site.title}}</strong></p>
 		</div>
 	</div>
 	<div class="row actions">
 		<div class="column column-80 column-offset-10">
-		<h3>Welcome To Gateway Crypto. We're a Non-Profit Education Community Created by and for People Interested In The Future of Financial Technologies in the St. Louis Region.</h3>
+		{% if site.banner %}
+		<h3>{{site.banner}}</h3>
+		{% endif %}
 		</div>
 	</div>
 	<div class="row actions"> 
 		<div class="column">
-			<a class="button button-blue" href="{{site.donate}}">Donate to Support Activities</a>
+			<a class="button button-blue" href="{{site.donate}}">Donate to Support</a>
 			<a class="button button-outline button-blue" href="{{site.chat}}">Join Discussion</a>
 		</div>
 	</div>
@@ -29,7 +33,7 @@ ref: home
 <footer id="footer" class="container">
 	<div class="row actions">
 		<div class="column">
-			<p><strong>Gateway Crypto</strong> is a<br>USA 501(c)3 Non-Profit.</p>
+			<p><strong>Essen Family</strong> is a baked by a <br>USA 501(c)3 Non-Profit.</p>
 		</div>
 		<div class="column">
 			<p>Federal Tax EIN: HAVE<br>
@@ -37,7 +41,7 @@ ref: home
 		</div>
 		<div class="column">
 			<p><a href="mailto:{{site.email}}?subject=Website Inquiry">{{site.email}}</a><br>
-			<span id="copyright">&copy; Gateway Crypto 2020</span></p>
+			<span id="copyright">&copy; Essen Family 2020</span></p>
 		</div>
 	</div>
 </div>
