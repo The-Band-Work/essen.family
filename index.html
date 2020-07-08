@@ -33,7 +33,7 @@ ref: home
 <footer id="footer" class="container">
 	<div class="row actions">
 		<div class="column">
-			<p><strong>Essen Family</strong> is a baked by a <br>USA 501(c)3 Non-Profit.</p>
+			<p><strong>{{site.title}}</strong> is a backed by a <br>USA 501(c)3 Non-Profit.</p>
 		</div>
 		<div class="column">
 			<p>Federal Tax EIN: HAVE<br>
@@ -41,7 +41,7 @@ ref: home
 		</div>
 		<div class="column">
 			<p><a href="mailto:{{site.email}}?subject=Website Inquiry">{{site.email}}</a><br>
-			<span id="copyright">&copy; Essen Family 2020</span></p>
+			<span id="copyright">&copy; {{site.title}} {{ 'now' | date: "%Y" }}</span></p>
 		</div>
 	</div>
 </div>
